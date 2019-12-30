@@ -4,3 +4,6 @@
 [submodule "lib/tinlake-title"]
 	path = lib/tinlake-title
 	url = https://github.com/centrifuge/tinlake-title
+[submodule "lib/tinlake"]
+	path = lib/tinlake
+	url = https://github.com/centrifuge/tinlake
