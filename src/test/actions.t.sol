@@ -7,9 +7,9 @@ import "../actions.sol";
 import "../../proxy.sol";
 import "../../registry.sol";
 
-import "../../core/test/mock/shelf.sol";
-import "../../core/test/mock/pile.sol";
-import "../../core/test/mock/desk.sol";
+import "tinlake/core/test/mock/shelf.sol";
+import "tinlake/core/test/mock/pile.sol";
+import "tinlake/core/test/mock/desk.sol";
 
 contract RegistryTest is DSTest {
     ProxyRegistry registry;
