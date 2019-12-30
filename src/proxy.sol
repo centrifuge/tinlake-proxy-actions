@@ -14,9 +14,9 @@
 // You should have received a copy of the GNU Affero General Public License
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
-pragma solidity >=0.4.24;
+pragma solidity >=0.5.12;
 
-import "tinlake-title/title.sol";
+import {TitleOwned, Title } from "tinlake-title/title.sol";
 
 // From DSProxy https://github.com/dapphub/ds-proxy
 contract Proxy is TitleOwned {
@@ -90,7 +90,7 @@ contract ProxyFactory {
     TitleLike title;
 
     constructor(address title_) public {
-        title = TitleLike_(title_);
+        title = TitleLike(title_);
     }
 
     // deploys a new proxy instance
