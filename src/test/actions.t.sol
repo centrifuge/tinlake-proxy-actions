@@ -3,9 +3,8 @@ pragma solidity >=0.4.24;
 import "ds-test/test.sol";
 
 import "../actions.sol";
-
-import "../../proxy.sol";
-import "../../registry.sol";
+import "../proxy.sol";
+import "../registry.sol";
 
 import "tinlake/core/test/mock/shelf.sol";
 import "tinlake/core/test/mock/pile.sol";
